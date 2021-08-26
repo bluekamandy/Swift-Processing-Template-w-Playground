@@ -13,7 +13,7 @@
 		1FA1C4B82679AB5800F29477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA1C4B62679AB5800F29477 /* Main.storyboard */; };
 		1FA1C4BA2679AB5900F29477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA1C4B92679AB5900F29477 /* Assets.xcassets */; };
 		1FA1C4BD2679AB5900F29477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA1C4BB2679AB5900F29477 /* LaunchScreen.storyboard */; };
-		1FA1C4C72679AD1D00F29477 /* SwiftProcessing in Frameworks */ = {isa = PBXBuildFile; productRef = 1FA1C4C62679AD1D00F29477 /* SwiftProcessing */; };
+		1FB4232626D6C3D9007EB506 /* SwiftProcessing in Frameworks */ = {isa = PBXBuildFile; productRef = 1FB4232526D6C3D9007EB506 /* SwiftProcessing */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		1FA1C4B92679AB5900F29477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FA1C4BC2679AB5900F29477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FA1C4BE2679AB5900F29477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FA1C4C92679AD5000F29477 /* GettingStarted.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GettingStarted.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1FA1C4C92679AD5000F29477 /* SwiftProcessing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftProcessing.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FA1C4C72679AD1D00F29477 /* SwiftProcessing in Frameworks */,
+				1FB4232626D6C3D9007EB506 /* SwiftProcessing in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +43,7 @@
 		1FA1C4A42679AB5800F29477 = {
 			isa = PBXGroup;
 			children = (
-				1FA1C4C92679AD5000F29477 /* GettingStarted.playground */,
+				1FA1C4C92679AD5000F29477 /* SwiftProcessing.playground */,
 				1FA1C4AF2679AB5800F29477 /* Swift-Processing-Template-w-Playground */,
 				1FA1C4AE2679AB5800F29477 /* Products */,
 			);
@@ -60,15 +60,23 @@
 		1FA1C4AF2679AB5800F29477 /* Swift-Processing-Template-w-Playground */ = {
 			isa = PBXGroup;
 			children = (
-				1FA1C4B02679AB5800F29477 /* AppDelegate.swift */,
-				1FA1C4B22679AB5800F29477 /* SceneDelegate.swift */,
+				1FB4232326D6A4FA007EB506 /* Extras */,
 				1FA1C4B42679AB5800F29477 /* Sketch.swift */,
-				1FA1C4B62679AB5800F29477 /* Main.storyboard */,
 				1FA1C4B92679AB5900F29477 /* Assets.xcassets */,
-				1FA1C4BB2679AB5900F29477 /* LaunchScreen.storyboard */,
 				1FA1C4BE2679AB5900F29477 /* Info.plist */,
 			);
 			path = "Swift-Processing-Template-w-Playground";
+			sourceTree = "<group>";
+		};
+		1FB4232326D6A4FA007EB506 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				1FA1C4B02679AB5800F29477 /* AppDelegate.swift */,
+				1FA1C4B22679AB5800F29477 /* SceneDelegate.swift */,
+				1FA1C4B62679AB5800F29477 /* Main.storyboard */,
+				1FA1C4BB2679AB5900F29477 /* LaunchScreen.storyboard */,
+			);
+			path = Extras;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,7 +96,7 @@
 			);
 			name = "Swift-Processing-Template-w-Playground";
 			packageProductDependencies = (
-				1FA1C4C62679AD1D00F29477 /* SwiftProcessing */,
+				1FB4232526D6C3D9007EB506 /* SwiftProcessing */,
 			);
 			productName = "Swift-Processing-Template-w-Playground";
 			productReference = 1FA1C4AD2679AB5800F29477 /* Swift-Processing-Template-w-Playground.app */;
@@ -118,7 +126,7 @@
 			);
 			mainGroup = 1FA1C4A42679AB5800F29477;
 			packageReferences = (
-				1FA1C4C52679AD1D00F29477 /* XCRemoteSwiftPackageReference "SwiftProcessing" */,
+				1FB4232426D6C3D9007EB506 /* XCRemoteSwiftPackageReference "SwiftProcessing" */,
 			);
 			productRefGroup = 1FA1C4AE2679AB5800F29477 /* Products */;
 			projectDirPath = "";
@@ -353,20 +361,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1FA1C4C52679AD1D00F29477 /* XCRemoteSwiftPackageReference "SwiftProcessing" */ = {
+		1FB4232426D6C3D9007EB506 /* XCRemoteSwiftPackageReference "SwiftProcessing" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/jjkaufman/SwiftProcessing.git";
+			repositoryURL = "https://github.com/masoodkamandy/SwiftProcessing";
 			requirement = {
-				branch = master;
+				branch = main;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1FA1C4C62679AD1D00F29477 /* SwiftProcessing */ = {
+		1FB4232526D6C3D9007EB506 /* SwiftProcessing */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1FA1C4C52679AD1D00F29477 /* XCRemoteSwiftPackageReference "SwiftProcessing" */;
+			package = 1FB4232426D6C3D9007EB506 /* XCRemoteSwiftPackageReference "SwiftProcessing" */;
 			productName = SwiftProcessing;
 		};
 /* End XCSwiftPackageProductDependency section */

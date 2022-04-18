@@ -1,16 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "SwiftProcessing",
-        "repositoryURL": "https://github.com/masoodkamandy/SwiftProcessing",
-        "state": {
-          "branch": "main",
-          "revision": "a6e10d6cc424e1025ae87774e9bc7d09acbfcdbd",
-          "version": null
-        }
+  "pins" : [
+    {
+      "identity" : "swiftprocessing",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/masoodkamandy/SwiftProcessing",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5416838307c489190b5236c4c77bf279481b2e94"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }
